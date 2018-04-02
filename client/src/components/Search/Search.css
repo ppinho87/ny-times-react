@@ -1,0 +1,19 @@
+.search-box{
+	text-align: center;
+	color: black;
+	background-color: black;
+}
+
+.card-header {
+	background-color: #023336;
+	color: whitesmoke;
+}
+
+.btn {
+	background-color: #023336;
+}
+
+input{
+	margin-bottom: 20px;
+	text-align: center;
+}
