@@ -1,0 +1,17 @@
+body{
+  background-color: whitesmoke;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.panelTitle{
+  background-color: #023336;
+  color: whitesmoke;
+}
+
+.panel {
+  height: 500px;
+}
+
+.btn {
+  background-color: #023336;
+}

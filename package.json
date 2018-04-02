@@ -1,0 +1,38 @@
+{
+  "name": "ny-times-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "start": "node server",
+    "build": "webpack -p"
+  },
+  "keywords": [],
+  "author": "Paul Pinho",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "json-loader": "^0.5.4",
+    "mongoose": "^4.7.2",
+    "morgan": "^1.7.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.0",
+    "request": "^2.79.0",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.4"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }
+}
