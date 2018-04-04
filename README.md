@@ -41,15 +41,15 @@ The `/test` folder can be disregarded since its files were made just for laying 
 
 #### Users are able to submit a topic, start year, and end year to query the New York Times
 
-![Query Articles](/screenshots/query-articles.png)
+![Query Articles](/images/query-articles.png)
 
 #### Press the Save button and the article is bookmarked via an `/api/saved` post route
 
-![Article Content](/screenshots/add-bookmark.png)
+![Article Content](/images/add-bookmark.png)
 
 #### Press the Delete button and the bookmarked article is removed via an `/api/delete/:id` post route
 
-![Add Comment](/screenshots/remove-bookmark.png)
+![Add Comment](/images/remove-bookmark.png)
 
 #### Note that the get routes include an **internal route** to `/api/saved` for querying and displaying all the bookmarked articles from the Mongo database.
 
