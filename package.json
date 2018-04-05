@@ -11,11 +11,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "yarn build && git add . && git commit -m \"Building for production\" && git push heroku master"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "Paul Pinho",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^3.5.0",
     "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "6.11.4"
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -23,5 +30,13 @@
     "express": "^4.15.4",
     "mongoose": "^4.13.0",
     "react-router-dom": "^4.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinhop07/ny-times-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pinhop07/ny-times-react/issues"
+  },
+  "homepage": "https://github.com/pinhop07/ny-times-react#readme"
 }
