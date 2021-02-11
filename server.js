@@ -17,7 +17,7 @@ app.use(routes);
 mongoose.Promise = global.Promise;
 //Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://admin:admin123@ds115214.mlab.com:15214/nyt-react",
+  process.env.MONGODB_URI || "mongodb://admin:admin1234@cluster0-shard-00-00.cf468.mongodb.net:27017,cluster0-shard-00-01.cf468.mongodb.net:27017,cluster0-shard-00-02.cf468.mongodb.net:27017/nyt-react?ssl=true&replicaSet=atlas-vk72pn-shard-0&authSource=admin&retryWrites=true&w=majority",
   {
     useMongoClient: true
   }
